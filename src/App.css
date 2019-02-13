@@ -1,0 +1,13 @@
+.wdth_95 {
+  width: 95%;
+  margin: 15px auto;
+}
+
+.para {
+  width: 100%;
+  background: lightgray;
+  padding: 9px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 22px;
+}
