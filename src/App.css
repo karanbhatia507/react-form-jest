@@ -11,3 +11,8 @@
   text-align: center;
   font-size: 22px;
 }
+
+.submt_btn {
+  width: 10%;
+  margin: 5px 0px;
+}

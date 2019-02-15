@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Paragraph Component Snapshot Component tree 1`] = `
+<Paragraph
+  className="para"
+  text="Hey paragraph!"
+>
+  <p>
+    Hey paragraph!
+  </p>
+</Paragraph>
+`;

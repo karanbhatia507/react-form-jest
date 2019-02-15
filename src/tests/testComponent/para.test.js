@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import Paragraph from '../components/para'
+import {  mount } from 'enzyme';
+import Paragraph from '../../components/para'
 import { configure } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 import toJson from 'enzyme-to-json'
@@ -16,6 +16,7 @@ describe('Testing Paragraph Component', () => {
     it('Typeof of Props', () => {
         const component = mount(<Paragraph text="Hey paragraph" className="para" />)
         expect(typeof component.prop('text')).toBe("string")
+        expect(component.prop('className')).toContain('para')
     })
     it('Snapshot Component tree', () => {
         const component = mount(<Paragraph text="Hey paragraph!" className="para" />)

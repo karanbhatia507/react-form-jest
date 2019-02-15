@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Details Component Contains information about user 1`] = `
+<Details
+  contact="98995XXXXX"
+  name="Karan"
+>
+  <div>
+    <Button
+      className="submt_btn"
+      color="danger"
+      onClick={[Function]}
+      tag="button"
+    >
+      <button
+        aria-label={null}
+        className="submt_btn btn btn-danger"
+        onClick={[Function]}
+        type="button"
+      />
+    </Button>
+    <Modal
+      autoFocus={true}
+      backdrop={true}
+      backdropTransition={
+        Object {
+          "mountOnEnter": true,
+          "timeout": 150,
+        }
+      }
+      centered={false}
+      fade={true}
+      isOpen={false}
+      keyboard={true}
+      modalTransition={
+        Object {
+          "timeout": 300,
+        }
+      }
+      onClosed={[Function]}
+      onOpened={[Function]}
+      role="dialog"
+      toggle={[Function]}
+      zIndex={1050}
+    />
+  </div>
+</Details>
+`;
